@@ -1,0 +1,34 @@
+
+
+header {
+    background-image:url("duck1.jpg");
+}
+h1 {
+    text-align: center;
+    font-size:80px;
+    color:orangered;
+}
+main {
+    font-size: larger;
+    text-rendering: auto;
+    color:maroon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h2 {
+    color:maroon;
+    padding-left: 600px;
+    padding-top: 50px;
+}
+
+#ref2 {
+    padding-left:200px;
+}
+#ref1 {
+    padding-left:100px;
+}
+
+#money2 {
+    padding-left: 563px;
+}

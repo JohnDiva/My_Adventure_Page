@@ -24,5 +24,14 @@ app.get(
     response.sendFile(path.join(__dirname, 'choice2.html'))
 }
 )
+
+app.get(
+    '/choice3'
+    ,function( request, response){
+    response.sendFile(path.join(__dirname, 'choice3.html'))
+}
+)
+
  
 app.listen(8080)
+app.use(express.static('./'))
